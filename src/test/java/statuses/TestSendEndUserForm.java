@@ -33,10 +33,11 @@ public class TestSendEndUserForm {
 	public void sendEndUserFormOrder(){
 		given()
 			.spec(reqSpec)
+			//.spec(RestUtilities.)
 		.when()
 			.post(EndPoints.STATUSES_SEND_END_USER_FORM)
 		.then()
-			.log().all();
+			.log().ifValidationFails();
 			
 
 			

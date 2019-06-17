@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10480" started-at="2019-06-17T13:16:24Z" finished-at="2019-06-17T13:16:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10480" started-at="2019-06-17T13:16:24Z" finished-at="2019-06-17T13:16:34Z">
+      <class name="statuses.TestGetEndUserForm">
+        <test-method status="PASS" signature="setup()[pri:0, instance:statuses.TestGetEndUserForm@5315b42e]" name="setup" is-config="true" duration-ms="2" started-at="2019-06-17T09:16:28Z" finished-at="2019-06-17T09:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getEndUserForm()[pri:0, instance:statuses.TestGetEndUserForm@5315b42e]" name="getEndUserForm" duration-ms="1226" started-at="2019-06-17T09:16:28Z" finished-at="2019-06-17T09:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEndUserForm -->
+      </class> <!-- statuses.TestGetEndUserForm -->
+      <class name="statuses.TestRetrieveOrderDetails">
+        <test-method status="PASS" signature="setup()[pri:0, instance:statuses.TestRetrieveOrderDetails@62043840]" name="setup" is-config="true" duration-ms="716" started-at="2019-06-17T09:16:24Z" finished-at="2019-06-17T09:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getOrderDetails()[pri:0, instance:statuses.TestRetrieveOrderDetails@62043840]" name="getOrderDetails" duration-ms="3835" started-at="2019-06-17T09:16:24Z" finished-at="2019-06-17T09:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderDetails -->
+      </class> <!-- statuses.TestRetrieveOrderDetails -->
+      <class name="statuses.TestAcceptOrder">
+        <test-method status="PASS" signature="setup()[pri:0, instance:statuses.TestAcceptOrder@2ef9b8bc]" name="setup" is-config="true" duration-ms="1" started-at="2019-06-17T09:16:30Z" finished-at="2019-06-17T09:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="acceptOrder()[pri:0, instance:statuses.TestAcceptOrder@2ef9b8bc]" name="acceptOrder" duration-ms="1100" started-at="2019-06-17T09:16:30Z" finished-at="2019-06-17T09:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptOrder -->
+      </class> <!-- statuses.TestAcceptOrder -->
+      <class name="statuses.TestSendEndUserForm">
+        <test-method status="PASS" signature="setup()[pri:0, instance:statuses.TestSendEndUserForm@1e67b872]" name="setup" is-config="true" duration-ms="3" started-at="2019-06-17T09:16:32Z" finished-at="2019-06-17T09:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sendEndUserFormOrder()[pri:0, instance:statuses.TestSendEndUserForm@1e67b872]" name="sendEndUserFormOrder" duration-ms="1831" started-at="2019-06-17T09:16:32Z" finished-at="2019-06-17T09:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEndUserFormOrder -->
+      </class> <!-- statuses.TestSendEndUserForm -->
+      <class name="statuses.TestCancelOrder">
+        <test-method status="PASS" signature="setup()[pri:0, instance:statuses.TestCancelOrder@5d624da6]" name="setup" is-config="true" duration-ms="2" started-at="2019-06-17T09:16:31Z" finished-at="2019-06-17T09:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="cancelOrder()[pri:0, instance:statuses.TestCancelOrder@5d624da6]" name="cancelOrder" duration-ms="1734" started-at="2019-06-17T09:16:31Z" finished-at="2019-06-17T09:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelOrder -->
+      </class> <!-- statuses.TestCancelOrder -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

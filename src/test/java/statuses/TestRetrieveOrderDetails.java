@@ -35,7 +35,7 @@ public class TestRetrieveOrderDetails {
 		.when()
 			.post(EndPoints.STATUSES_ORDER_DETAILS)
 		.then()
-			.log().all()
+			.log().ifValidationFails()
 			.spec(resSpec)
 			.body("order.order_id", equalTo("M16B2E9DBCFC"))
 			.body("order.currency", equalToIgnoringCase("JPY"))

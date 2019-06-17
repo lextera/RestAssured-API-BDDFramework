@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="statuses.TestGetEndUserForm">
+      <class name="statuses.TestRetrieveOrderDetails">
         <methods>
+          <include name="getOrderDetails"/>
           <include name="setup"/>
-          <include name="getEndUserForm"/>
         </methods>
-      </class> <!-- statuses.TestGetEndUserForm -->
+      </class> <!-- statuses.TestRetrieveOrderDetails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

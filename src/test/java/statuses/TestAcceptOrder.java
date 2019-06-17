@@ -36,7 +36,7 @@ public class TestAcceptOrder {
 		.when()
 			.post(EndPoints.STATUSES_ACCEPT_ORDER)
 		.then()
-			.log().all()
+			.log().ifError()
 			.spec(resSpec);
 
 			

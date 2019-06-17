@@ -75,6 +75,7 @@ public class RestUtilities {
 		return rspec.pathParam(param, value);
 	}
 	
+	// ************response
 	public static Response getResponse() {
 		return given().get(ENDPOINT);
 
